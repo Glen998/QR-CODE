@@ -7,6 +7,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    min-width: 100vh;
     @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
     font-family: "Outfit", sans-serif;
 }
@@ -21,6 +22,7 @@ main{
 }
 
 img{
+    min-width: 240px;
     width: 100%;
     object-fit: cover;
 }
