@@ -1,9 +1,12 @@
+:root{
+    --blue: #A1E3F9;
+}
 
 body{
-    margin: 50px;
+    background: var(--blue);
+    display: flex;
+    align-items: center;
     justify-content: center;
-    padding: 0;
-    background-color: rgba(114, 159, 255, 0.418);
     @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
     font-family: "Outfit", sans-serif;
 }
